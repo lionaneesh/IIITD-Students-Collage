@@ -2,7 +2,7 @@ import json
 from urllib2 import urlopen
 
 
-fp = open("iiitd_group_members.txt")
+fp = open("gsw.txt")
 data = json.loads(fp.read())
 fp.close()
 
